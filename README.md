@@ -1,4 +1,4 @@
-# Liquidstack
+# LiquidStack
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,17 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Liquidstack is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.hiive.com/securities/liquidstack-stock
+LiquidStack is a data center liquid cooling company — direct-to-chip coolant distribution units
+(CDU-1MW, GigaModular CDU-10MW) and single- and two-phase immersion DataTank systems for AI,
+hyperscale, HPC, edge/5G and crypto workloads. Spun out of Bitfury in 2021, headquartered in
+Carrollton, Texas, and acquired by Trane Technologies in March 2026.
+
+**API surface: none published.** LiquidStack sells capital equipment and services, not software.
+Its own page sitemap lists 31 pages with no developer, docs or API path; there is no developer
+portal, OpenAPI, SDK, CLI or MCP server, and no `/.well-known/` document is served. The only
+machine interface the company documents is embedded in the hardware — its CDUs ship with
+"native MODBUS TCP/IP or RESTful API for robust remote management" (plus BACnet/IP and SNMP),
+reachable only at the unit's own address on a customer's network.
+
+- https://liquidstack.com/
+- Parent company: https://www.tranetechnologies.com/

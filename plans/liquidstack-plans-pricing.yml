@@ -1,0 +1,20 @@
+generated: '2026-08-25'
+method: searched
+source: https://liquidstack.com/get-started
+plan_count: 0
+currency: null
+note: >-
+  LiquidStack publishes no pricing page and no plans. It sells capital equipment — direct-to-chip
+  coolant distribution units (CDU-1MW, GigaModular CDU-10MW), single- and two-phase immersion
+  DataTank systems — plus lifecycle services, all quoted through a "Get Started" / "Contact Us"
+  sales conversation. The published page sitemap (31 pages, archived 2025-11-27) contains no
+  /pricing, /plans or /billing path, and there is no developer plan or API tier of any kind.
+  Recorded as an explicit zero rather than omitted: checked, nothing published.
+plans: []
+evidence:
+- url: https://liquidstack.com/get-started
+  status: 202
+  note: HTTP 202 SiteGround bot challenge to our client; page confirmed present in the provider's own page-sitemap1.xml
+- url: https://web.archive.org/web/20251127160657/https://liquidstack.com/page-sitemap1.xml
+  status: 200
+  note: provider-published page sitemap — no pricing or plans page exists

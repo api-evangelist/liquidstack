@@ -1,0 +1,19 @@
+generated: '2026-08-25'
+method: searched
+source: https://liquidstack.com/
+limit_count: 0
+note: >-
+  No rate limits are documented, because LiquidStack publishes no public web API. The only API
+  the company describes anywhere is an embedded control interface on its hardware: the CDU-1MW
+  product page states the unit ships with "native MODBUS TCP/IP or RESTful API for robust remote
+  management". That interface runs on the customer's own equipment behind their network, has no
+  public base URL, no reference documentation and no published quota or throttling policy.
+  Recorded as an explicit zero rather than omitted.
+rate_limits: []
+headers: []
+evidence:
+- url: https://liquidstack.com/cdu-direct-to-chip/coolant-distribution-unit-1-megawatt
+  status: 202
+  note: >-
+    HTTP 202 bot challenge to our client; content read from the Internet Archive capture
+    20260106182754, which carries the MODBUS TCP/IP + RESTful API sentence verbatim.

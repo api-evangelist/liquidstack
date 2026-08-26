@@ -1,0 +1,54 @@
+# LiquidStack
+
+> LiquidStack is a data center liquid cooling company — direct-to-chip coolant distribution
+> units (CDUs) and single- and two-phase immersion cooling systems for AI, hyperscale, HPC,
+> edge and cryptocurrency workloads. Headquartered in Carrollton, Texas, with engineering,
+> R&D and manufacturing in Texas and Hong Kong. Spun out of Bitfury in 2021; acquired by
+> Trane Technologies, completed March 2026.
+
+Provenance: generated 2026-08-25 by the API Evangelist enrichment pipeline from
+apis.yml and this repository. LiquidStack does not publish an llms.txt of its own
+(https://liquidstack.com/llms.txt returned HTTP 202 — a SiteGround bot challenge, not a document).
+This file is a third-party summary, not a LiquidStack publication.
+
+## API surface
+
+LiquidStack publishes **no public web API, developer portal, API reference, OpenAPI/AsyncAPI
+specification, SDK, CLI or MCP server**. The provider's own page sitemap (31 pages) contains no
+developer, docs or API path, and liquidstack.com serves no /.well-known/ document.
+
+The only machine interface the company documents is embedded in its hardware. The CDU-1MW
+product page states: "The unit is equipped with temperature, pressure, and flow sensors at all
+critical points, alongside native MODBUS TCP/IP or RESTful API for robust remote management."
+Published product material also lists BACnet/IP and SNMP for building- and data-center
+management-system integration. That interface is reached at the unit's own address on the
+operator's network — it has no public base URL, no published reference and no specification.
+
+## Products
+
+- [CDU direct-to-chip](https://liquidstack.com/cdu-direct-to-chip): coolant distribution units for direct-to-chip liquid cooling.
+- [CDU-1MW](https://liquidstack.com/cdu-direct-to-chip/coolant-distribution-unit-1-megawatt): up to 1,350 kW cooling capacity at N+1, MODBUS TCP/IP or RESTful API remote management.
+- [GigaModular CDU-10MW](https://liquidstack.com/cdu-direct-to-chip/giga-modular): centralized, modular, scalable CDU platform up to 10 MW.
+- [Two-phase immersion](https://liquidstack.com/two-phase-immersion) and [single-phase immersion](https://liquidstack.com/single-phase-immersion) DataTank systems, up to 252 kW.
+- [Services](https://liquidstack.com/services): consulting, installation, training, lifecycle maintenance.
+
+## Company
+
+- [Website](https://liquidstack.com/)
+- [About](https://liquidstack.com/about-us)
+- [Industries](https://liquidstack.com/industries) — data centers, edge/5G, HPC, crypto
+- [Blog](https://liquidstack.com/blog)
+- [News](https://liquidstack.com/news)
+- [Resources](https://liquidstack.com/resources) — white papers, case studies, technical documents
+- [Contact](https://liquidstack.com/contact-us)
+- [Careers](https://liquidstack.com/careers)
+- [Terms & conditions](https://liquidstack.com/terms-conditions)
+- [Privacy policy](https://liquidstack.com/privacy-policy)
+- Parent company: [Trane Technologies](https://www.tranetechnologies.com/)
+
+## Notes for agents
+
+- Every liquidstack.com URL above answers HTTP 202 with a SiteGround JavaScript proof-of-work
+  interstitial to non-browser clients. The pages exist; a plain HTTP fetch will not read them.
+- There is nothing here to call. Do not attempt to construct an API base URL for LiquidStack —
+  none is published.

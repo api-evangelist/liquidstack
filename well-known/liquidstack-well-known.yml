@@ -1,0 +1,61 @@
+generated: '2026-08-25'
+method: probed
+source: live HTTPS probes of liquidstack.com and www.liquidstack.com
+note: >-
+  No /.well-known/ document was served. Every path on both hosts answered HTTP 202 with a
+  SiteGround "sgcaptcha" JavaScript proof-of-work interstitial (response header
+  `sg-captcha: challenge`, body a 169-byte meta-refresh to /.well-known/sgcaptcha/), which is
+  a bot challenge rather than a document. No WellKnown or SecurityTxt pointer is emitted,
+  because nothing was served. The Internet Archive independently recorded 404 for
+  /.well-known/security.txt, /.well-known/openid-configuration and /.well-known/ai-plugin.json
+  on this host (crawl 2024-01-11), so the absence predates the challenge.
+hosts:
+- host: liquidstack.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 202
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 202
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 202
+    file: null
+  - path: /.well-known/api-catalog
+    status: 202
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 202
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 202
+    file: null
+  - path: /.well-known/agent.json
+    status: 202
+    file: null
+- host: www.liquidstack.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 202
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 202
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 202
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 202
+    file: null
+  - path: /.well-known/api-catalog
+    status: 202
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 202
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 202
+    file: null
+  - path: /.well-known/agent.json
+    status: 202
+    file: null

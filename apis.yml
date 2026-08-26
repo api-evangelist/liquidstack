@@ -1,17 +1,41 @@
 aid: liquidstack
-name: Liquidstack
-description: 'Liquidstack is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+name: LiquidStack
+description: >-
+  LiquidStack is a data center liquid cooling company that designs, manufactures and services
+  direct-to-chip and immersion cooling systems for AI, hyperscale, high performance computing,
+  edge/5G and cryptocurrency workloads. Its product line spans direct-to-chip coolant distribution
+  units — the CDU-1MW at up to 1,350kW of cooling at N+1 and the modular GigaModular CDU-10MW
+  platform — alongside single-phase and two-phase immersion DataTank systems rated to 252kW, plus
+  full lifecycle services covering consulting, installation, training and maintenance. The company
+  spun out of Bitfury in 2021, raised $20 million from Tiger Global, is headquartered in Carrollton,
+  Texas with engineering, R&D and manufacturing operations in Texas and Hong Kong, and was acquired
+  by Trane Technologies in a deal completed in March 2026. LiquidStack sells capital equipment and
+  services rather than software: it operates no developer program and publishes no public API,
+  specification, SDK or developer portal. The only machine interface it documents is embedded in
+  the hardware — its CDUs ship with native MODBUS TCP/IP or a RESTful API, plus BACnet/IP and SNMP,
+  for remote management from a customer's own building or data center management system.
+image: https://liquidstack.com/content/uploads/2021/03/liquid-stack-logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/liquidstack/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
+x-tier: profiled
 x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-25'
 modified: '2026-08-25'
 tags:
 - Company
+- Data Centers
+- Liquid Cooling
+- Immersion Cooling
+- Thermal Management
+- Infrastructure
+- Hardware
+- High Performance Computing
+- Artificial Intelligence
+- Energy Efficiency
+- Sustainability
+- Edge Computing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +44,43 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.hiive.com/securities/liquidstack-stock
+  url: https://liquidstack.com/
+- type: ParentCompany
+  url: https://www.tranetechnologies.com/
+- type: Blog
+  url: https://liquidstack.com/blog
+- type: Support
+  url: https://liquidstack.com/contact-us
+- type: TermsOfService
+  url: https://liquidstack.com/terms-conditions
+- type: PrivacyPolicy
+  url: https://liquidstack.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/liquidstack/
+- type: Twitter
+  url: https://twitter.com/liquid_stack
+- type: LLMsTxt
+  url: llms/liquidstack-llms.txt
+- type: DomainSecurity
+  url: security/liquidstack-domain-security.yml
+x-enrichment:
+  date: '2026-08-25'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    LiquidStack sells liquid cooling hardware and services, not software — its own published page
+    sitemap lists 31 pages with no developer, docs or API path, and the only API it documents is a
+    native MODBUS TCP/IP or RESTful management interface embedded in its CDUs, reachable only at
+    the unit's address on a customer's network.
+  evidence:
+  - url: https://web.archive.org/web/20251127160657/https://liquidstack.com/page-sitemap1.xml
+    status: 200
+  - url: https://liquidstack.com/.well-known/api-catalog
+    status: 202
+  - url: https://api.github.com/orgs/liquidstack
+    status: 404
+  checked: '2026-08-25'
