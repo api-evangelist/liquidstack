@@ -14,6 +14,17 @@ description: >-
   specification, SDK or developer portal. The only machine interface it documents is embedded in
   the hardware — its CDUs ship with native MODBUS TCP/IP or a RESTful API, plus BACnet/IP and SNMP,
   for remote management from a customer's own building or data center management system.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://liquidstack.com/content/uploads/2021/03/liquid-stack-logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/liquidstack/refs/heads/main/apis.yml
 x-type: company
