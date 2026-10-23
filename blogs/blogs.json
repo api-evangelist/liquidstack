@@ -3,10 +3,17 @@
   "feeds": [
     {
       "source": "https://liquidstack.com/blog",
+      "feed_url": "https://liquidstack.com/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://liquidstack.com/blog/feed/",
       "feed_url": "https://liquidstack.com/blog/feed/",
       "title": "",
-      "saved": 1,
-      "method": "discovered"
+      "saved": 0,
+      "method": "none"
     },
     {
       "source": "https://www.tranetechnologies.com/",
@@ -17,5 +24,5 @@
     }
   ],
   "post_count": 1,
-  "fetched": "2026-10-10T13:15:00Z"
+  "fetched": "2026-10-17T14:53:57Z"
 }
