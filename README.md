@@ -64,17 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-LiquidStack is a data center liquid cooling company — direct-to-chip coolant distribution units
-(CDU-1MW, GigaModular CDU-10MW) and single- and two-phase immersion DataTank systems for AI,
-hyperscale, HPC, edge/5G and crypto workloads. Spun out of Bitfury in 2021, headquartered in
-Carrollton, Texas, and acquired by Trane Technologies in March 2026.
+LiquidStack is a data center liquid cooling company that designs, manufactures and services direct-to-chip and immersion cooling systems for AI, hyperscale, high performance computing, edge/5G and cryptocurrency workloads. Its product line spans direct-to-chip coolant distribution units — the CDU-1MW at up to 1,350kW of cooling at N+1 and the modular GigaModular CDU-10MW platform — alongside single-phase and two-phase immersion DataTank systems rated to 252kW, plus full lifecycle services covering consulting, installation, training and maintenance. The company spun out of Bitfury in 2021, raised $20 million from Tiger Global, is headquartered in Carrollton, Texas with engineering, R&D and manufacturing operations in Texas and Hong Kong, and was acquired by Trane Technologies in a deal completed in March 2026. LiquidStack sells capital equipment and services rather than software: it operates no developer program and publishes no public API, specification, SDK or developer portal. The only machine interface it documents is embedded in the hardware — its CDUs ship with native MODBUS TCP/IP or a RESTful API, plus BACnet/IP and SNMP, for remote management from a customer's own building or data center management system.
 
-**API surface: none published.** LiquidStack sells capital equipment and services, not software.
-Its own page sitemap lists 31 pages with no developer, docs or API path; there is no developer
-portal, OpenAPI, SDK, CLI or MCP server, and no `/.well-known/` document is served. The only
-machine interface the company documents is embedded in the hardware — its CDUs ship with
-"native MODBUS TCP/IP or RESTful API for robust remote management" (plus BACnet/IP and SNMP),
-reachable only at the unit's own address on a customer's network.
+**Areas:** Company · Data Center · Liquid Cooling · Immersion Cooling · Thermal Management · Infrastructure · Hardware · High Performance Computing · Artificial Intelligence · Energy Efficiency · Sustainability · Edge Computing
 
-- https://liquidstack.com/
-- Parent company: https://www.tranetechnologies.com/
+## LiquidStack on APIs.io
+
+Everything profiled for LiquidStack is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/liquidstack/](https://apis.io/providers/liquidstack/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Liquidstack Domain Security](https://apis.io/security/liquidstack/liquidstack-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Liquidstack Plans Pricing](https://apis.io/plans/liquidstack/liquidstack-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Liquidstack Rate Limits](https://apis.io/rate-limits/liquidstack/liquidstack-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://liquidstack.com/)
+- [Support](https://liquidstack.com/contact-us)
+- [Blog](https://liquidstack.com/blog)
+- [Terms of service](https://liquidstack.com/terms-conditions)
+- [Privacy policy](https://liquidstack.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 4.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 5.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.6** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/liquidstack/](https://apis.io/providers/liquidstack/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LiquidStack: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/liquidstack/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
